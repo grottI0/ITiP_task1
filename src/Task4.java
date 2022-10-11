@@ -2,9 +2,11 @@
 public class Task4 {
     // выводит результаты работы profitableGamble
     public static void main(String[] args) {
+        System.out.println("Task4:");
         System.out.println(profitableGamble(0.2, 50, 9));
         System.out.println(profitableGamble(0.9, 1, 2));
         System.out.println(profitableGamble(0.9, 3, 2));
+        System.out.println();
     }
     // возвращает выгодна ли игра
     public static boolean profitableGamble(double prob, int prize, int pay) {
